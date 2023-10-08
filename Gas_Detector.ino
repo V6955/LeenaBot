@@ -12,7 +12,7 @@ void sms(){
   delay(1000);
   Serial.print("AT+CMGS=1\r");
   delay(1000);
-  Serial.print("AT+CMGF=\" + 3013776327\"\r");
+  Serial.print("AT+CMGF=\" + XXX\"\r");
   delay(1000);
   Serial.print("Gas Detected");
   delay(1000);
